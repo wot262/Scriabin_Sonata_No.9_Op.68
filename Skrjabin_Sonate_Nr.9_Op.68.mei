@@ -17,7 +17,7 @@
                <name xml:id="n17z8nct">Verovio</name>
                <p xml:id="p25qyjn">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="afo7crd" enddate="2024-05-24T03:56:31" startdate="2024-05-23T21:43:57" version="1.0.14">
+            <application xml:id="afo7crd" enddate="2024-05-24T04:23:07" startdate="2024-05-23T21:43:57" version="1.0.14">
                <name xml:id="nt8ttux1">mei-friend</name>
                <p xml:id="pybd9s61">First edit by mei-friend 1.0.14, 23 May 2024.</p>
             </application>
@@ -2094,7 +2094,7 @@
                            <note xml:id="n1jm8qym" dots="1" dur="8" dur.ppq="180" oct="3" pname="f" stem.dir="up">
                              
                            </note>
-                           <rest xml:id="r5d5dpt" dur="16" dur.ppq="60" oloc="2" ploc="e"/>
+                           <rest xml:id="r5d5dpt" dur="16" dur.ppq="60" oloc="3" ploc="e"/>
                         </layer>
                         <layer xml:id="lg0qmfi" n="6">
                            <tuplet xml:id="tlt86n0" bracket.visible="true" num="3" numbase="2">
@@ -2185,7 +2185,6 @@
                            <rest xml:id="r1a50vc0" dur="8" dur.ppq="120"/>
                            <chord xml:id="c1b0a0qj" dur="4" dur.ppq="240" stem.dir="up">
                               <artic xml:id="a8ublxd" artic="ten"/>
-                              <artic xml:id="ai2kk2p" artic="acc"/>
                               <note xml:id="n14ytt9t" oct="2" pname="b">
                                  <accid xml:id="au3wtij" accid="n" enclose="paren"/>
                               </note>
@@ -2195,17 +2194,16 @@
                            </chord>
                            <chord xml:id="c1esro6t" dur="16" dur.ppq="60" stem.dir="up">
                               <artic xml:id="aunvsmc" artic="ten"/>
-                              <artic xml:id="akvmwkq" artic="acc"/>
                               <note xml:id="nffdcwc" oct="2" pname="b"/>
                               <note xml:id="n6gf8bq" oct="3" pname="b"/>
                            </chord>
-                           <rest xml:id="r1nq85lm" dur="16" dur.ppq="60" oloc="2" ploc="b"/>
+                           <rest xml:id="r1nq85lm" dur="16" dur.ppq="60" oloc="3" ploc="b"/>
                         </layer>
                         <layer xml:id="l16e2kh2" n="6">
                            <tuplet xml:id="t1pj5fq4" bracket.visible="true" num="3" numbase="2">
                               <rest xml:id="r2u4f1d" dur="16" dur.ppq="40" oloc="1" ploc="b"/>
                               <beam xml:id="b1g5tlwr">
-                                 <note xml:id="n1l8d10m" dur="16" dur.ppq="40" oct="2" pname="e" stem.dir="down"/>
+                                 <note xml:id="n1l8d10m" dur="16" dur.ppq="40" oct="2" pname="e" stem.dir="down" tie="i"/>
                                  <note xml:id="ncbqcxd" dur="16" dur.ppq="40" oct="1" pname="a" stem.dir="down">
                                     <accid xml:id="a10h8rrq" accid="s"/>
                                  </note>
@@ -2213,7 +2211,7 @@
                            </tuplet>
                            <chord xml:id="c1vwayq" dots="1" dur="4" dur.ppq="360" stem.dir="down">
                               <note xml:id="n93sbac" accid.ges="s" oct="1" pname="a"/>
-                              <note xml:id="n1hvh48b" oct="2" pname="e"/>
+                              <note xml:id="n1hvh48b" oct="2" pname="e" tie="t"/>
                            </chord>
                         </layer>
                         <layer xml:id="l4gyvp6" n="7">
@@ -2231,7 +2229,6 @@
                      <dir xml:id="d1lc1vhq" place="above" staff="1" tstamp="1.000000" vgrp="2039">
                         <rend xml:id="r7tfic6" fontfam="MScore Text">♮</rend>
                      </dir>
-                     <dynam xml:id="d1e69fii" place="below" staff="1" tstamp="1.000000" val="80" vgrp="645">mf</dynam>
                      <dir xml:id="d1vbzs8w" extender="true" lform="dashed" place="below" staff="1" tstamp="1.000000" tstamp2="0m+2.5000" vgrp="870">
                         <rend xml:id="rf2kjxr" fontfam="Edwin" fontstyle="italic">a</rend>
                      </dir>
@@ -2242,7 +2239,6 @@
                      </dir>
                      <tie xml:id="t1ddbhio" endid="#n8cxrp2" startid="#na4er4k"/>
                     <trill xml:id="tn1f2xp2" extender="true" n="1" staff="1" startid="ndqmb051" tstamp2="0m+2.6250"/>
-                     <dynam xml:id="doygy3y" place="below" staff="1" tstamp="2.500000" val="86" vgrp="785">f</dynam>
                      <dir xml:id="d1fbi3f3" extender="true" lform="dashed" place="below" staff="1" tstamp="2.500000" tstamp2="0m+4.8750" vgrp="950">
                         <rend xml:id="rsd3wkr" fontfam="Edwin" fontstyle="italic">poco</rend>
                      </dir>
@@ -2259,32 +2255,17 @@
                      </dir>
                   
               <trill xml:id="t1wskxc1" extender="true" n="1" staff="1" startid="#na8ah3p1" tstamp2="0m+4.0000"/>
-                     <slur xml:id="sd3ue23" curvedir="above" endid="#nizevhd" startid="#nl5o3ko"/>
-                  
+                     <slur xml:id="sd3ue23" curvedir="above" endid="#na8ah3p1" startid="#n1qwd2k4"/>                  
                      <slur xml:id="s1f02me2" curvedir="below" endid="#n93sbac" startid="#n1l8d10m"/>
+                         <slur xml:id="sghqc4k2" curvedir="above" endid="#nb96kvu2" startid="#n65e1l71"/>
                      <tie xml:id="t9r3c6y" endid="#n93sbac" startid="#ncbqcxd"/>
-                     <tie xml:id="t150g1v2" endid="#n1vo71jq" startid="#n8plwfa"/>
                   </measure>
                   <measure xml:id="mk3548x" n="30">
                      <staff xml:id="s1hb1ivz" n="1">
                         <layer xml:id="l13tja1o" n="1">
-                           <chord xml:id="c6pvl8k" dur="8" dur.ppq="120" stem.dir="down">
-                              <note xml:id="nizevhd" oct="6" pname="c">
-                                 <accid xml:id="a1knr3ft" accid="f"/>
-                              </note>
-                              <note xml:id="n18314tw" oct="6" pname="d" visible="false">
-                                 <accid xml:id="a1oyhtzk" accid="f"/>
-                              </note>
-                           </chord>
-                           <chord xml:id="c3ko800" dur="4" dur.ppq="240" stem.dir="up">
-                              <artic xml:id="amb08cd" artic="acc"/>
-                              <note xml:id="n1mi3fk5" oct="4" pname="d">
-                                 <accid xml:id="a1jo6qi8" accid="f"/>
-                              </note>
-                              <note xml:id="n1bgjzjw" oct="4" pname="e" visible="false">
-                                 <accid xml:id="at513ev" accid="ff"/>
-                              </note>
-                           </chord>
+                           <note xml:id="nb96kvu2" accid="f" dur="8" oct="6" pname="c" stem.dir="down"/>
+                           <note xml:id="nmpfvhn2" accid="f" artic="acc" dur="4" oct="4" pname="d" stem.dir="up"/>                           
+                           
                            <beam xml:id="b1uqj5le">
                               <note xml:id="nug9aj8" accid.ges="f" dur="16" dur.ppq="60" oct="4" pname="d" stem.dir="up">
                                  <artic xml:id="a17sk1ib" artic="acc"/>
@@ -2323,7 +2304,7 @@
                               <note xml:id="n1ijn6tc" oct="3" pname="f"/>
                            </chord>
                            <chord xml:id="c9s4gxi" dur="16" dur.ppq="60" stem.dir="up">
-                              <artic xml:id="a1cpicfw" artic="acc"/>
+                              <artic xml:id="a1cpicfw" artic="acc" place="above"/>
                               <note xml:id="n1bev8ap" oct="1" pname="b"/>
                               <note xml:id="nlxz5r0" oct="2" pname="e"/>
                               <note xml:id="n1xpdy16" accid.ges="f" oct="3" pname="c"/>
@@ -2333,7 +2314,7 @@
                         </layer>
                         <layer xml:id="lkwpdm2" n="6">
                            <chord xml:id="cvl0j41" dur="8" dur.ppq="0" grace="unacc" stem.dir="up" stem.mod="1slash">
-                              <note xml:id="n17uduuh" oct="1" pname="b"/>
+                              <note xml:id="n17uduuh" oct="1" pname="b" accid="f"/>
                               <note xml:id="ndznhby" oct="2" pname="e"/>
                            </chord>
                            <chord xml:id="cei6yqx" dur="4" dur.ppq="240" stem.dir="down">
@@ -2351,13 +2332,12 @@
                         <rend xml:id="rtmpnyh" fontfam="MScore Text">b</rend>
                      </dir>
                      <dynam xml:id="dx1tn4s" place="below" staff="1" tstamp="1.000000" val="96" vgrp="430">f</dynam>
-                     <breath xml:id="b8tnymm" staff="1" tstamp="0.500000"/>
-                     <trill xml:id="tsdko4y" extender="true" n="1" staff="1" startid="#c6pvl8k" tstamp2="0m+1.0000"/>
+                     <trill xml:id="tsdko4y" extender="true" n="1" staff="1" startid="#nb96kvu2" tstamp2="0m+1.0000"/>
                      <dir xml:id="du948gn" place="above" staff="1" tstamp="2.000000" vgrp="2025">
                         <rend xml:id="rdupcq5" fontfam="MScore Text">bb</rend>
                      </dir>
                      <dynam xml:id="dxsp534" place="below" staff="1" tstamp="2.000000" val="60" vgrp="585">p</dynam>
-                     <trill xml:id="t5idrsb" staff="1" startid="#c3ko800"/>
+                     <trill xml:id="t5idrsb" staff="1" startid="#nmpfvhn2"/>
                      <dir xml:id="duwsuj6" place="above" staff="1" tstamp="4.000000" vgrp="2049">
                         <rend xml:id="r11wcqa5" fontfam="MScore Text">♮</rend>
                      </dir>
@@ -2369,7 +2349,6 @@
                      <pedal xml:id="p1sprpru" dir="up" form="line" place="below" staff="2" tstamp="3.900000" vgrp="2000"/>
                      <pedal xml:id="pkw03y9" dir="down" form="line" place="below" staff="2" tstamp="4.000000" vgrp="890"/>
                      <pedal xml:id="p88ad2y" dir="up" form="line" place="below" staff="2" tstamp="4.400000" vgrp="2000"/>
-                     <tie xml:id="t18pcuv1" endid="#nuoy5tk" startid="#n17uduuh"/>
                      <tie xml:id="tdcqe6i" endid="#nsnbua" startid="#ndznhby"/>
                   </measure>
                   <sb xml:id="sxbuhpr"/>
@@ -2478,10 +2457,8 @@
                         </layer>
                      </staff>
                      <dir xml:id="d1xyi7t8" place="above" staff="1" tstamp="1.000000" vgrp="2036">
-                        <rend xml:id="r1jfjalt" fontfam="MScore Text"></rend>
+                        <rend xml:id="r1jfjalt" fontfam="MScore Text">♮</rend>
                      </dir>
-                     <dynam xml:id="d1t3ae8f" place="below" staff="1" tstamp="1.000000" val="80" vgrp="565">mf</dynam>
-                     <pedal xml:id="pakvmj0" dir="down" form="line" place="below" staff="1" tstamp="1.000000" vgrp="1080"/>
                      <hairpin xml:id="hajdqb2" form="dim" place="below" staff="1" tstamp="1.000000" tstamp2="0m+1.8750" vgrp="660"/>
                      <tie xml:id="tzw15a1" endid="#n1nf5lzz" startid="#nd1e449"/>
                      <trill xml:id="th7qyfu" extender="true" n="1" staff="1" startid="#nd1e449" tstamp2="0m+1.6250"/>
@@ -2490,7 +2467,7 @@
                      </dynam>
                      <pedal xml:id="p1ep1vwm" dir="up" form="line" place="below" staff="1" tstamp="1.525000" vgrp="2000"/>
                      <dir xml:id="dckkrcw" place="above" staff="1" tstamp="2.000000" vgrp="2027">
-                        <rend xml:id="r163n1dz" fontfam="MScore Text"></rend>
+                        <rend xml:id="r163n1dz" fontfam="MScore Text">b</rend>
                      </dir>
                      <pedal xml:id="p1q8lq63" dir="down" form="line" place="below" staff="1" tstamp="2.000000" vgrp="1200"/>
                      <hairpin xml:id="h1c76v9q" form="cres" place="below" staff="1" tstamp="2.000000" tstamp2="0m+3.0000" vgrp="860"/>
@@ -2499,20 +2476,16 @@
                      <dynam xml:id="dp0ktfp" place="below" staff="1" tstamp="2.500000" val="86" vgrp="785">f</dynam>
                      <pedal xml:id="pcfshj" dir="up" form="line" place="below" staff="1" tstamp="2.525000" vgrp="2000"/>
                      <dir xml:id="dhz6l86" place="above" staff="1" tstamp="3.000000" vgrp="2037">
-                        <rend xml:id="r17ivqnk" fontfam="MScore Text"></rend>
+                        <rend xml:id="r17ivqnk" fontfam="MScore Text">♮</rend>
                      </dir>
-                     <tempo xml:id="t1stgd7t" midi.bpm="42.000000" mm="42.000000" mm.unit="4" place="above" staff="1" tstamp="3.000000">
-                        <rend xml:id="rkzt25a" glyph.auth="smufl"></rend> = 42</tempo>
                      <pedal xml:id="p39ukbb" dir="down" form="line" place="below" staff="1" tstamp="3.000000" vgrp="1200"/>
                      <hairpin xml:id="h9eikku" form="dim" place="below" staff="1" tstamp="3.000000" tstamp2="0m+4.0000" vgrp="690"/>
                      <tie xml:id="t17lkt7q" endid="#n169qne4" startid="#n11aquw6"/>
                      <trill xml:id="tzcofua" extender="true" n="1" staff="1" startid="#n11aquw6" tstamp2="0m+3.6250"/>
                      <pedal xml:id="p3g3b8g" dir="up" form="line" place="below" staff="1" tstamp="3.525000" vgrp="2000"/>
                      <dir xml:id="d1heapyh" place="above" staff="1" tstamp="4.000000" vgrp="2026">
-                        <rend xml:id="r1c0mnoy" fontfam="MScore Text"></rend>
+                        <rend xml:id="r1c0mnoy" fontfam="MScore Text">b</rend>
                      </dir>
-                     <tempo xml:id="t1ycv93v" midi.bpm="40.000000" mm="40.000000" mm.unit="4" place="above" staff="1" tstamp="4.000000">
-                        <rend xml:id="r1fcb4a" glyph.auth="smufl"></rend> = 40</tempo>
                      <pedal xml:id="plj5ifs" dir="down" form="line" place="below" staff="1" tstamp="4.000000" vgrp="1200"/>
                      <hairpin xml:id="hgt5hek" form="cres" place="below" staff="1" tstamp="4.000000" tstamp2="0m+5.0000" vgrp="860"/>
                      <trill xml:id="tnhvjl4" staff="1" startid="#c1096hu6"/>
@@ -2520,7 +2493,6 @@
                      <pedal xml:id="p6nvsms" dir="up" form="line" place="below" staff="1" tstamp="4.525000" vgrp="2000"/>
                      <slur xml:id="s1l3g4y" curvedir="below" endid="#n1ffwtco" startid="#nodvp0"/>
                      <tie xml:id="t1nvdugl" endid="#n1ffwtco" startid="#n1mibyho"/>
-                     <tie xml:id="tpto9fl" endid="#n1wt0149" startid="#na6v2ba"/>
                   </measure>
                   <measure xml:id="m3j7fc" n="32">
                      <staff xml:id="suuh38k" n="1">
@@ -2592,10 +2564,8 @@
                         </layer>
                      </staff>
                      <dir xml:id="d19rf82v" place="above" staff="1" tstamp="1.000000" vgrp="2162">
-                        <rend xml:id="r1uxa9o2" fontfam="MScore Text"></rend>
+                        <rend xml:id="r1uxa9o2" fontfam="MScore Text">b</rend>
                      </dir>
-                     <tempo xml:id="tbigp14" midi.bpm="22.000000" mm="22.000000" mm.unit="4" place="above" staff="1" tstamp="1.000000">
-                        <rend xml:id="r3x0h2m" glyph.auth="smufl"></rend> = 22</tempo>
                      <trill xml:id="txqr1ru" staff="1" startid="#c1yync4v"/>
                      <dynam xml:id="dutj8xw" place="below" staff="1" tstamp="1.666667" val="60" vgrp="575">p</dynam>
                      <tempo xml:id="t10bn4eq" midi.bpm="40.000000" mm="40.000000" mm.unit="4" place="above" staff="1" tstamp="1.666667">
@@ -2604,8 +2574,6 @@
                      <tie xml:id="tsc7zq6" endid="#n1co4xdc" startid="#n4q4zbu"/>
                      <hairpin xml:id="h1mj5kvk" form="cres" place="below" staff="1" tstamp="3.000000" tstamp2="0m+5.0000" vgrp="810"/>
                      <dynam xml:id="dqyjvcc" place="above" staff="2" tstamp="1.000000" val="96" vgrp="2058">f</dynam>
-                     <pedal xml:id="p1eua5nk" dir="down" form="line" place="below" staff="2" tstamp="1.000000" vgrp="1070"/>
-                     <tie xml:id="tvlxiga" endid="#n1eqw9pw" startid="#nqm041y"/>
                      <tie xml:id="t46oinu" endid="#n9k81yh" startid="#na8zqtv"/>
                      <pedal xml:id="pkw3wrf" dir="up" form="line" place="below" staff="2" tstamp="2.900000" vgrp="2000"/>
                   </measure>
@@ -2664,14 +2632,10 @@
                         </layer>
                      </staff>
                      <dir xml:id="d1kese68" place="above" staff="1" tstamp="1.000000" vgrp="2152">
-                        <rend xml:id="r8q0tb9" fontfam="MScore Text"></rend>
+                        <rend xml:id="r8q0tb9" fontfam="MScore Text">b</rend>
                      </dir>
-                     <tempo xml:id="tqfrujm" midi.bpm="22.000000" mm="22.000000" mm.unit="4" place="above" staff="1" tstamp="1.000000">
-                        <rend xml:id="r113fllp" glyph.auth="smufl"></rend> = 22</tempo>
                      <trill xml:id="tma6crw" staff="1" startid="#c85z2ud"/>
                      <dynam xml:id="da1jn0m" place="below" staff="1" tstamp="1.666667" val="60" vgrp="565">p</dynam>
-                     <tempo xml:id="t1az1htg" midi.bpm="40.000000" mm="40.000000" mm.unit="4" place="above" staff="1" tstamp="1.666667">
-                        <rend xml:id="r1m7vhxq" glyph.auth="smufl"></rend> = 40</tempo>
                      <slur xml:id="s552hnv" curvedir="above" endid="#nect6dz" startid="#np4yll9"/>
                      <tie xml:id="t1mup342" endid="#n149gt8s" startid="#n6i2dq0"/>
                      <tie xml:id="tghb84w" endid="#nect6dz" startid="#n149gt8s"/>
