@@ -1955,7 +1955,7 @@
                      <trill xml:id="tlr3rkg" extender="true" n="1" staff="1" startid="#n1iy4x0b" tstamp2="0m+2.6250"/>
                      <pedal xml:id="p5mp8iq" dir="up" form="line" place="below" staff="1" tstamp="2.400000" vgrp="2000"/>
                    
-                     <dir xml:id="d1eeqidy" place="above" staff="1" tstamp="3.1100" vgrp="2084">
+                     <dir xml:id="d1eeqidy" place="above" staff="1" tstamp="3.1100" vgrp="2025">
                         <rend xml:id="r5igs8a" fontfam="MScore Text">b</rend>
                      </dir>
                    <hairpin xml:id="hw4hjwb1" form="dim" place="below" staff="1" tstamp="2.5" tstamp2="2.9"/>
@@ -2338,7 +2338,7 @@
                      </dir>
                      <dynam xml:id="dxsp534" place="below" staff="1" tstamp="2.000000" val="60" vgrp="585">p</dynam>
                      <trill xml:id="t5idrsb" staff="1" startid="#nmpfvhn2"/>
-                     <dir xml:id="duwsuj6" place="above" staff="1" tstamp="4.000000" vgrp="2049">
+                     <dir xml:id="duwsuj6" place="above" staff="1" tstamp="4.000000" vgrp="2175">
                         <rend xml:id="r11wcqa5" fontfam="MScore Text">♮</rend>
                      </dir>
                      <hairpin xml:id="hcl106e" form="cres" place="below" staff="1" tstamp="4.000000" tstamp2="0m+5.0000" vgrp="780"/>
@@ -4736,7 +4736,7 @@
                      </staff>
                      <dynam xml:id="d8hkw4e" place="below" staff="1" tstamp="1.000000" val="96" vgrp="429">poco  f</dynam>
                      <dir xml:id="d118nhzp" place="above" staff="1" tstamp="1.000000" vgrp="2055">
-                        <rend xml:id="rf0dv7g" fontfam="MScore Text"></rend>
+                        <rend xml:id="rf0dv7g" fontfam="MScore Text">b</rend>
                      </dir>
                      <hairpin xml:id="hegm6i8" form="dim" place="below" staff="1" tstamp="1.000000" tstamp2="0m+4.0000" vgrp="640"/>
                      <tie xml:id="t1y83pq1" endid="#nbdtae6" startid="#ne465w0"/>
@@ -4890,14 +4890,14 @@
                      </staff>
                      <dynam xml:id="dj809bm" place="below" staff="1" tstamp="1.000000" val="96" vgrp="555">f</dynam>
                      <dir xml:id="d1giftim" place="above" staff="1" tstamp="1.000000" vgrp="2052">
-                        <rend xml:id="r1k9uiye" fontfam="MScore Text"></rend>
+                        <rend xml:id="r1k9uiye" fontfam="MScore Text">b</rend>
                      </dir>
                      <hairpin xml:id="h1yadzzg" form="dim" place="below" staff="1" tstamp="1.000000" tstamp2="0m+2.0000" vgrp="730"/>
                      <tie xml:id="tl2zxlf" endid="#n1be60pz" startid="#n1is4e8k"/>
                      <trill xml:id="t1h3nikh" extender="true" n="1" staff="1" startid="#cn8t5s8" tstamp2="0m+1.6250"/>
                      <dynam xml:id="dz3pist" place="below" staff="1" tstamp="2.000000" val="70" vgrp="585">mp</dynam>
                      <dir xml:id="d157lbuz" place="above" staff="1" tstamp="2.000000" vgrp="2058">
-                        <rend xml:id="rfvnvf5" fontfam="MScore Text"></rend>
+                        <rend xml:id="rfvnvf5" fontfam="MScore Text">bb</rend>
                      </dir>
                      <tie xml:id="tx8zzo3" endid="#nkxsqgy" startid="#nkena12"/>
                      <trill xml:id="t11dgah2" extender="true" n="1" staff="1" startid="#c1punfa7" tstamp2="0m+2.6250"/>
